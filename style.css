@@ -1,0 +1,93 @@
+body {
+  
+    background-image: url("imagemhp.jpeg");
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat
+   }
+   
+   #header, #textUnderHeader {
+     color:white;
+   
+     font-family: 'Henny Penny', cursive;
+   
+   
+   }
+   #header {
+       position: relative;
+       left: 20px;
+       bottom: 70px;
+       font-size: 70px;
+       text-align: center;
+   
+   
+   }
+   #textUnderHeader {
+     position: relative;
+     left: 5px;
+     bottom: 120px;  
+     font-size: 29px;
+     text-align: center
+   }
+   nav a{
+     color: white;
+     font-size: 18px;
+     text-decoration: none; 
+     margin: 11px;
+   position: relative;
+   top: 33px;  
+   font-weight: bold;
+   
+   }
+   
+   nav a:hover {
+     text-decoration: underline;
+     text-decoration-color: #ac63b6;
+   }
+   
+   nav {
+   text-align: center;
+   margin: 33px;
+   position: relative;
+   }
+   
+   #login {
+     background-color:  #b663b6;
+     position: absolute;
+     top: 15px;
+     right: 40px;
+     cursor: pointer;
+     padding: 3px 8px 4px 8px;
+     font-weight: 700;
+     border: none;
+     font-size: 13px;
+     color: white;  
+     border-radius: 3px;
+   
+   }
+   #explore:hover {
+     background-color: #a157b5;
+   }
+   #login:hover {
+     background-color: #b057b5;
+   }
+   
+   #first-line {
+     margin: -3px;
+   }
+   
+   #explore {
+     position: relative;
+     top: 260px;
+     left: 270px;
+     background-color:  #b663b5;
+     cursor: pointer;
+     padding: 20px 30px 20px 30px;
+     font-weight: 700;
+     border: none;
+     font-size: 16px;
+     color: white;  
+     border-radius: 30px;
+   
+   
+   } 
